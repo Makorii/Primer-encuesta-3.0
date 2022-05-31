@@ -1,0 +1,166 @@
+body {
+    background-image: url(fondos/fondojuegos2.jpg);
+    background-repeat: repeat;
+    background-position: center;
+}
+.contenedor {
+    color: rgb(25, 245, 150);
+    font-family: 'Patrick Hand', cursive;
+    font-size: 27px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+}
+.descripcion {
+    font-size: 25px;
+    font-family: 'Caveat', cursive;
+    margin-top: 0;
+}
+.box1, .box2, .box3, .box4, .box5, .box6, .box7 {
+    color: rgb(254, 159, 254);
+}
+#name, #email, #edad, #dropdown, #dropdown2 {
+    width: 50%;
+    height: 20px;
+    border-radius: 5px;
+    border-color: rgb(254, 159, 254);
+}
+.pregunta {
+    margin-bottom: 0px;
+}
+#sugerencia {
+    margin-top: 15px;
+    width: 90%;
+    height: 30px;
+    border-color: rgb(254, 159, 254);
+    border-radius: 5px;
+}
+#submit {
+    background-color: rgb(254, 159, 254);
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    border-color: rgb(110, 15, 170);
+}
+
+/* Mobile */
+@media (min-width: 320px) and (max-width: 480px) {
+    h1{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .descripcion{
+        font-size: 18px;
+    }
+    .box1, .box2, .box3, .box4, .box5, .box6, .box7{
+        font-size: 20px;
+    }
+    #name, #email, #edad, #dropdown, #dropdown2 {
+        width: 80%;
+    }
+}
+
+/* iPads, Tablets */
+@media (min-width: 481px) and (max-width: 768px){
+    h1 {
+        font-size: 33px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .descripcion {
+        font-size: 25px;
+    }
+    .box1, .box2, .box3, .box4, .box5, .box6, .box7{
+        font-size: 27px;
+    }
+    #name, #email, #edad, #dropdown, #dropdown2 {
+        width: 75%;
+        height: 25px;
+        font-size: 18px;
+    }
+    #sugerencia {
+        font-size: 18px;
+        height: 40px;
+    }
+    #submit {
+        font-size: 23px;
+        height: 40px;
+    }
+
+}
+
+/* Small screens, laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    #name, #email, #edad, #dropdown, #dropdown2{
+        width: 90%;
+        height: 25px;
+        font-size: 15px;
+    }
+    h1 {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    #submit{
+        width: 92%;
+    }
+    #sugerencia{
+        font-size: 15px;
+        height: 45px;
+    }
+}
+
+/* Desktops, large screens */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    h1 {
+        text-align: center;
+        font-size: 40px;
+    }
+    #name, #email, #edad, #dropdown, #dropdown2{
+        width: 90%;
+        height: 25px;
+        font-size: 15px;
+    }
+    #sugerencia{
+        font-size: 16px;
+        height: 45px;
+        width: 90%;
+    }
+    #submit{
+        height: 45px;
+    }
+}
+
+/* Extra large screens, TV */
+@media (min-width: 1201px) {
+    h1{
+        font-size: 43px;
+        text-align: center;
+    }
+    .descripcion{
+        font-size: 30px;
+    }
+    #name, #email, #edad, #dropdown, #dropdown2 {
+        width: 90%;
+        height: 25px;
+        font-size: 15px;
+    }
+    .box1, .box2, .box3, .box4, .box5, .box6, .box7 {
+        font-size: 35px;
+    }
+    #sugerencia{
+        font-size: 16px;
+        height: 45px;
+        width: 90%;
+        }
+        #submit{
+            height: 55px;
+        }
+}

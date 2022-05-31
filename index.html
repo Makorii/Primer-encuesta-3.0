@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <title>Segundo proyecto 3.0</title>
+</head>
+<body>
+    <main>
+        <div class="contenedor">
+            <h1>Formulario de encuesta: Videojuegos</h1>
+            <p class="descripcion">Con tu opinión se puede mejorar el mundo gamer</p>
+            <form>
+                <div class="box1">
+                    <label for="name">Nombre<br><input id="name" type="text" placeholder="Introduzca su nombre"></label><br>
+                    <label for="email">Email<br><input id="email" type="text" placeholder="Introduce tu correo electronico"></label><br>
+                    <label for="edad">Edad<br><input id="edad" type="text" placeholder="Edad"></label>
+                </div>
+                <div class="box2">
+                    <p class="pregunta">¿Qué tipo de videojuego te gusta?</p>
+                    <select id="dropdown" name="tipo-de-juego">
+                        <option>Seleccione una opción</option>
+                        <option>Disparos</option>
+                        <option>Deporte</option>
+                        <option>Acción</option>
+                        <option>Estrategia</option>
+                        <option>Simulación</option>
+                        <option>Carreras</option>
+                        <option>Aventura</option>
+                        <option>Rol</option>
+                        <option>Otros</option>
+                    </select>
+                </div>
+                <div class="box3">
+                    <p class="pregunta">¿Recomendarías jugar videojuegos a tus conocidos?</p>
+                    <label for="Si"><input id="Si" type="radio" name="afirmacion-negacion-quizas" value="afirmacion">Si, por supuesto</label><br>
+                    <label for="No"><input id="No" type="radio" name="afirmacion-negacion-quizas" value="negacion">No</label><br>
+                    <label for="Quizas"><input id="Quizas" type="radio"name="afirmacion-negacion-quizas" value="quizas">Quizas</label><br>
+                </div>
+                <div class="box4">
+                    <p class="pregunta">¿Cuál es tu videojuego favorito?</p>
+                    <select id="dropdown2" name="videojuego-fav">
+                        <option>Seleccione una opción</option>
+                        <option>Counter Strike: Global Offensive</option>
+                        <option>FIFA</option>
+                        <option>Apex Legends</option>
+                        <option>Fornite</option>
+                        <option>Overwatch</option>
+                        <option>Minecraft</option>
+                        <option>League of Legends</option>
+                        <option>Uncharted</option>
+                        <option>Rocket League</option>
+                        <option>Valorant</option>
+                        <option>Otros</option>
+                    </select>
+                </div>
+                <div class="box5">
+                    <p class="pregunta">¿Qué te gustaría mejorar de los videojuegos?</p>
+                    <label for="precio"><input id="precio" type="checkbox" name="mejoras" value="precio-accesible">Precios más accesibles</label><br>
+                    <label for="imagen"><input id="imagen" type="checkbox" name="mejoras" value="calidad-de-imagen">Calidad de imagen</label><br>
+                    <label for="sonido"><input id="sonido" type="checkbox" value="calidad-de-sonido">Calidad de sonido</label><br>
+                    <label for="servers"><input id="servers" type="checkbox" name="mejoras" value="mayor-cantidad-de-servidores">Mayor cantidad de servidores</label><br>
+                    <label for="comunicacion"><input id="comunicacion" type="checkbox" name="mejoras" value="la-comunicacion-entre-diferentes-plataformas">La comunicación entre diferentes plataformas</label><br>
+                </div>
+                <div class="box6">
+                    <p class="pregunta">¿Algún comentario o sugerencia adicional?</p>    
+                    <textarea id="sugerencia" name="sugerencia" placeholder="Escriba aqui su comentario o sugerencia"></textarea><br>
+                </div>
+                <div class="box7">
+                    <button id="submit" type="submit"><strong>Entregar</strong></button>
+                </div>
+            </form>
+        </div>
+    </main>
+    
+    
+</body>
+</html>
